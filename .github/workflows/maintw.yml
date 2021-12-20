@@ -8,6 +8,8 @@ jobs:
     steps:
     - uses: actions/checkout@master 
     - uses: engineerd/setup-kind@v0.5.0
+    - uses: lra/setup-kubeval@v1
+    - run: kubeval some.yaml
     - name: Install jq
       run: |
         sudo apt-get install jq
@@ -15,10 +17,10 @@ jobs:
       run: |
         export KUBECONFIG="$(kind get kubeconfig-path)"
         kubectl apply -f https://storage.googleapis.com/tekton-releases/latest/release.yaml
-    - name: Install Kubeval Tekton Task
-      run: |
-        export KUBECONFIG="$(kind get kubeconfig-path)"
-        kubectl apply -f https://raw.githubusercontent.com/tektoncd/catalog/master/task/kubeval/0.1/kubeval.yaml
+    #- name: Install Kubeval Tekton Task
+   #   run: |
+    #    export KUBECONFIG="$(kind get kubeconfig-path)"
+     #   kubectl apply -f https://raw.githubusercontent.com/tektoncd/catalog/master/task/kubeval/0.1/kubeval.yaml
     - name: Run Kubeval Task
       run: |
         export KUBECONFIG="$(kind get kubeconfig-path)"
