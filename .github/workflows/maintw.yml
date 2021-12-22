@@ -15,10 +15,10 @@ jobs:
       run: |
         export KUBECONFIG="$(kind get kubeconfig-path)"
         kubectl apply -f https://storage.googleapis.com/tekton-releases/latest/release.yaml
-    #- name: Install Kubeval Tekton Task
-   #   run: |
-    #    export KUBECONFIG="$(kind get kubeconfig-path)"
-     #   kubectl apply -f https://raw.githubusercontent.com/tektoncd/catalog/master/task/kubeval/0.1/kubeval.yaml
+    - name: Install Kubeval Tekton Task
+      run: |
+        export KUBECONFIG="$(kind get kubeconfig-path)"
+        kubectl apply -f https://raw.githubusercontent.com/tektoncd/catalog/master/task/kubeval/0.1/kubeval.yaml
     - name: Setup Kubeval
   # You may pin to the exact commit or the version.
   # uses: lra/setup-kubeval@8d2d3c08dc41835d9f972d3ba059f5d17298870d
