@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v2.0.0 (2022-01-05)
+### Feature
+* **asdasd32.py:** Asdasdasdddddddd ([`7b75f02`](https://github.com/guyyaakov1/moonsitehometask/commit/7b75f0288eca204a91d2edc1e09a8b535bfb7171))
+
+### Breaking
+* aaaaaaasssssssssssssssssssssssss  ([`7b75f02`](https://github.com/guyyaakov1/moonsitehometask/commit/7b75f0288eca204a91d2edc1e09a8b535bfb7171))
+
 ## v1.0.0 (2022-01-05)
 ### Feature
 * **asdasd3.py:** Asdasdasd asdasdasd ([`388c009`](https://github.com/guyyaakov1/moonsitehometask/commit/388c009fda9c5404ca062e67f5a879838b12d795))
