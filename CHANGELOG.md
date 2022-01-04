@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v2.0.2 (2022-01-05)
+### Fix
+* **asdasd11.py:** Ppwewe11 ([`e43cfb8`](https://github.com/guyyaakov1/moonsitehometask/commit/e43cfb88b88e353521b359b1d8cf31a13f98e511))
+
 ## v2.0.1 (2022-01-05)
 ### Fix
 * **asdasd322.py:** 3asdasd ([`82c71e2`](https://github.com/guyyaakov1/moonsitehometask/commit/82c71e29da3f01b3cd965078fef90971de63b3b9))
