@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v2.0.4 (2022-01-05)
+### Fix
+* **asdasd1112.py:** 11222 ([`c24e548`](https://github.com/guyyaakov1/moonsitehometask/commit/c24e54877f919cbdcbdbb3568e31b6f3f669ef0d))
+
 ## v2.0.3 (2022-01-05)
 ### Fix
 * **asdasd111.py:** Asdasdasd ([`5dbc125`](https://github.com/guyyaakov1/moonsitehometask/commit/5dbc1257f5b5cd92a3a8395c8b19d5a091690f54))
